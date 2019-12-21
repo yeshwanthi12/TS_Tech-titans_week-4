@@ -1,0 +1,10 @@
+create database yesh;
+use yesh;
+create table product(pid int,pname varchar(20),price float);
+select *from product;
+describe product;
+insert into product values(1,"mobile",50000.0);
+insert into product values(2,"mobile",50000.0);
+insert into product values(3,"mobile",50000.0);
+update product set pname="tv" where pname="mobile";
+delete from product where pid=1;
