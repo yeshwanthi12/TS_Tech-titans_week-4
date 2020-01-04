@@ -1,0 +1,48 @@
+body {
+	
+	background-color: grey;
+}
+.form {
+	border: 2px solid orange;
+	height: 250px;
+	width: 750px;
+	background-color: lightblue;
+	margin-top: 40px;
+}
+h1 {
+	color: green;
+	margin-top: -23px;
+	font-size: 30px;
+	border: 1px solid transparent;
+	background-color: lightblue;
+	height: 36px;
+	width: 300px;
+}
+
+table,tr,td {
+	border: 0px solid red;
+	border-collapse: collapse; 
+	border: 1px solid black;
+}
+tr,td{
+	color: orange;
+	font-size: 20px;
+	padding: 5px;
+}
+table {
+	margin-bottom: 5px;
+}
+#save {
+	margin-bottom: 10px;
+	margin-left: 150px;
+	background-color: grey;
+	color: white;
+	font-size: 15px;
+	
+}
+#cancel {
+	background-color: grey;
+	color: white;
+	font-size: 15px;
+	
+}
